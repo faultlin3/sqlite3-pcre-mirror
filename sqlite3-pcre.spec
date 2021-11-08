@@ -12,7 +12,7 @@ Source: %name-%version.tar
 Requires: libsqlite3 >= 3.3.8-alt2
 
 # Automatically added by buildreq on Thu Nov 02 2006
-BuildRequires: libpcre-devel libsqlite3-devel sqlite3
+BuildRequires: pcre-devel libsqlite3x-devel sqlite
 
 %description
 This SQLite loadable extension enables the REGEXP operator,
